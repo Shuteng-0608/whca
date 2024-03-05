@@ -1,0 +1,8 @@
+<launch>
+<!-- 
+    <arg name="map" default="drwall_low_1.3.yaml" />
+    <node pkg="map_server" type="map_server" name="map_server" args="$(find pibt_ros)/map/$(arg map)" /> -->
+
+    <node pkg="pibt_ros" type="testapp" name="testapp" output="screen"/>
+
+</launch>
